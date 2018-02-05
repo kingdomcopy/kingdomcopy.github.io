@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Greg Wycoff Scholarship Program has been established to help accelerate 
+    opportunities offered to Central Iowa youth through athletics and academics.">
+    <meta name="author" content="Rusty Hutchison">
+
+    <title>Kingdom Cares - Greg Wycoff Scholarship Program</title>
+	<link rel="icon" href="img/kc-icon-navy.png">
+   
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://kingdomcares.github.io/font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+	<link rel="stylesheet" href="css/kc-footer.css" type="text/css">
+	<link rel="stylesheet" href="css/support-footer.css" type="text/css">
+    <link rel="stylesheet" href="css/support-event.css" type="text/css">
+
+
+    <!-- Custom CSS -->
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<style>
+
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway','Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 300;
+}
+
+hr {
+    max-width: 50px;
+    border-color: #ed1b2f;
+    border-width: 3px;
+}
+
+hr.light {
+    border-color: #000;
+}
+
+a {
+    color: #ed1b2f;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a:hover,
+a:focus {
+    color: #ed1b2f;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.bg-primary {
+    background-color: #fff;
+    color: #000;
+}
+
+.bg-dark {
+    color: #fff;
+    background-color: #222;
+}
+
+.text-faded {
+    color: rgba(255,255,255,.7);
+}
+
+section {
+    padding-top: 50px;
+}
+
+aside {
+    padding: 50px 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 0px 0px 0px 10px;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar-default {
+    border-color: rgba(34,34,34,.05);
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    background-color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+    color: #ed1b2f;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: #eb3812;
+}
+
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    color: #222;
+}
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
+    color: #ed1b2f;
+}
+
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: #ed1b2f!important;
+    background-color: transparent;
+}
+
+.navbar-default .nav > li.active>a:hover,
+.navbar-default .nav>li.active>a:focus:hover {
+    background-color: transparent;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        border-color: rgba(0,0,0,1);
+        background-color: #fff;
+    }
+
+    .navbar-default .navbar-header .navbar-brand {
+        color: rgba(255,255,255,.7);
+    }
+
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #fff;
+    }
+
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        color: #000000;
+    }
+
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #ed1b2f;
+    }
+
+    .navbar-default.affix {
+        border-color: rgba(34,34,34,.05);
+        background-color: #fff;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand {
+        font-size: 14px;
+        color: #000000;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    .navbar-default.affix .navbar-header .navbar-brand:focus {
+        color: #ed1b2f;
+    }
+
+    .navbar-default.affix .nav > li>a,
+    .navbar-default.affix .nav>li>a:focus {
+        color: #222;
+    }
+
+    .navbar-default.affix .nav > li>a:hover,
+    .navbar-default.affix .nav>li>a:focus:hover {
+        color: #ed1b2f;
+    }
+}
+
+
+.list-inline{
+    margin-top: 10px;
+    float: right;   
+}
+
+@media(min-width:768px) {
+
+    header .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    header .header-content .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+    }
+
+    header .header-content .header-content-inner p {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 80%;
+        font-size: 18px;
+    }
+    
+    .bg-primary {
+    background-color: #fff;
+    color: #000;
+	}
+
+	.bg-dark {
+    color: #fff;
+    background-color: #222;
+	}
+    
+}
+
+.section-heading {
+    margin-top: 0;
+}
+
+
+.text-primary {
+    color: #ed1b2f;
+}
+
+.no-gutter > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.btn-default {
+    border-color: #fff;
+    color: #222;
+    background-color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    border-color: #ededed;
+    color: #222;
+    background-color: #f2f2f2;
+}
+
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    background-image: none;
+}
+
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #ed1b2f;
+}
+
+.btn-primary {
+    border-color: #ed1b2f;
+    color: #fff;
+    background-color: #ed1b2f;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    border-color: #ed431f;
+    color: #fff;
+    background-color: #ee4b28;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.dropdown-menu>li>a {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #333;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+    line-height: 30px;
+	}
+	
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 440px;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #ed1b2f;
+    background-color: #ed1b2f;
+}
+
+.btn-primary .badge {
+    color: #ed1b2f;
+    background-color: #fff;
+}
+
+.btn {
+    border: 0;
+    border-radius: 300px;
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+}
+
+.btn-xl {
+    padding: 15px 30px;
+        margin-bottom: 20px;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    color: #fff;
+    background: #222;
+}
+
+::selection {
+    text-shadow: none;
+    color: #fff;
+    background: #222;
+}
+
+img::selection {
+    color: #fff;
+    background: 0 0;
+}
+
+img::-moz-selection {
+    color: #fff;
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: #222;
+}
+
+#portfolio {
+	border-bottom: thin solid gray;
+	}
+	
+#kingdomhoops-header {
+	background-image: url(/img/gw-foundation-logo-horizontal-color.jpg);
+	background-size: 90% auto;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	height: 70%;
+	color: #fff;
+	position: relative;
+	margin-top: 50px;
+	border-bottom: 1px solid #000;
+	}
+
+#kingdomhoops-header h1{
+	background-color: rgba(0,0,0,.1);
+	box-shadow: 1px 1px 30px rgba(0,0,0,.1),
+				-1px -1px 30px rgba(0,0,0,.1);
+	font-size: 60px !important;
+	font-weight: 700;
+	text-align: left;
+	text-outline: 1px 1px #000;
+	position: absolute;
+	bottom: 10px;
+	line-height: .72;
+	text-shadow: 0.25px 0.25px 0px #000000,
+    			 -0.25px -0.25px 0px #000000,
+    			 -0.25px 0.25px 0px #000000,
+    			 0.25px -0.25px 0px #000000,
+    			 0px 0.25px 1px #000000;
+	}
+
+@media(min-width:768px) {
+    #kingdomhoops-header h1{
+	font-size: 80px !important;
+	
+	position: absolute;
+	bottom: 20px;
+	}
+}
+
+@media(min-width:1000px) {
+    #kingdomhoops-header h1{
+	left: 14%;
+	}
+}
+
+.btn-info, .btn-info:focus  {
+	background-color: #ed1b2f;
+	margin-bottom: 20px;
+	}
+	
+.btn-info:hover  {
+	background-color: #000000;
+	margin-bottom: 20px;
+	}	
+
+#program-links  {
+	margin-bottom: 50px;
+	margin-top: 30px;
+	}
+
+#program-links a {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	}
+
+#program-links .btn-xl {
+	padding: 15px 10px;
+	width: 35%;
+	}
+
+#districts h2 {
+	margin-bottom: 20px;
+	}
+
+#districts  {
+	border: 1px solid black;
+	}
+
+@media(max-width:768px) {
+   #districts  {
+	border: 1px solid black;
+	margin: 50px 10px 50px 10px;
+	}
+}
+
+@media(min-width:768px) {
+   #program-links a {
+	margin-left: 15px;
+    margin-right: 15px;
+	}
+}
+
+	#alumni {
+	    border: 2px solid #000;
+	    padding-bottom: 50px;
+	}
+	
+	#alumni ul {
+	    text-decoration: none;
+	    list-style-type:none;
+	    margin-left: -39px;
+	}
+	
+	#alumni h5 {
+	    text-decoration: underline;
+	}
+	
+	#alumni h1 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	}
+	
+	#greg {
+	margin-bottom: 20px;
+	}
+	
+	</style>
+</head>
+
+<body id="page-top">
+
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="index"><img src="https://kingdomcares.github.io/img/kingdomcares-logo-navbar-navy.png" /></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="index">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="programs">Our Programs</a>
+                            </li>
+                            <li>
+                                <a href="story">Our Story</a>
+                            </li>
+                            <li>
+                                <a href="youth">Our Youth</a>
+                            </li>
+                            <li>
+                                <a href="leadership">Our Leadership</a>
+                            </li>
+                            <li>
+                                <a href="influence">Our Influence</a>
+                            </li>
+                            <li>
+                                <a href="governance">Our Governance</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="scholarship-program">Support</a>
+                    </li>
+                    <li>
+                        <a href="contact-us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    
+    
+    <section id="kingdomhoops-header">
+		<div class="container">
+		</div>		
+	</section>
+	
+	<section id="kingdomhoops">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1">
+				<p>The Greg Wycoff Scholarship Program has been established to help accelerate
+				opportunities offered to Central Iowa youth through athletics and academics. Our vision
+				is to see athletics used as a platform for youth to make meaningful relationships, set
+				goals, and reach their full potential.
+				</p>
+				</div>
+				<div class=" col-sm-offset-1 col-sm-10 portfolio-item">   
+                <img id="greg" src="/img/greg-wycoff-wide.jpg" class="img-responsive" alt="">
+                </div>
+				<div class="col-sm-10 col-sm-offset-1">
+				<h1 class="">Remembering Greg Wycoff</h1> 
+				<p>Greg Wycoff is an inspiration to the entire Kingdom family for many things. From 2013-
+				2015, Greg played a valuable role as the Director of Fundraising for Kingdom Cares.
+				During April of 2015, Greg passed after his second battle with brain cancer. Through his
+				position, he established a vision and need for fundraising that has only continued to
+				grow. Those who had the opportunity to know Greg would describe him as a dedicated
+				employee, loving father, and faithful believer in Christ.</p>
+				<p>Greg carried enthusiasm into his work at Kingdom Cares as he made it his mission
+				create opportunities through the organization. This included making valuable
+				connections in the community and communicating the achievements of youth going
+				through Kingdom Cares. In an effort to honor Greg, his work at Kingdom Cares, and to
+				carry out his vision of creating opportunities through athletics, we have established the
+				Greg Wycoff Scholarship Program.</p>
+				</div>
+				<div class="col-sm-10 col-sm-offset-1">
+				<h1>Stewardship</h1>
+				<h2>Kingdom Hoops Need-Based Scholarships</h2>
+				<p>Opportunities for youth to enroll in an environment where heavy value is placed on hard
+				work, leadership, and integrative inclusion. The scholarship program annually exceeds
+				$250,000 in awarded scholarships as part of an effort to ensure all youth have an
+				opportunity to join our programs. ($1,800 covers an athlete to participate in the Kingdom
+				Hoops program via a donation through the Greg Wycoff Scholarship Program).</p>
+				</div>
+				<div class="col-sm-10 col-sm-offset-1">
+				<h2>College Grants</h2>
+				<p>Program Designed for youth to meet certain criteria while enrolled in Kingdom programs
+				so they can earn assistance for college outside of athletics. Grants will be written to
+				eligible students to be used for college tuition and books during their freshman year.
+				($600 provides a scholarship grant via the Greg Wycoff Scholarship Program).</p>
+				</div>
+				<div id="program-links" class="col-sm-10 col-sm-offset-1 text-center">
+					<a class="btn btn-default btn-xl" href="https://kingdomcaresinternational.cloverdonations.com/gw-scholarship-program/" target="_blank">Donate</a>
+				</div>		
+			</div>		
+		</div>	
+	</section>		
+	
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div  class="row">
+                <div class="col-sm-6 divider">
+                	<a href="index"><img class="img-responsive" src="https://kingdomcares.github.io/img/footer/kc-logo-horiz-rev.svg"></a>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <ul class="pages right">
+                        <li>
+                            <a href="index">Home</a>
+                        </li>
+                        
+                        <li>
+                            <a href="programs">Our Programs</a>
+                        </li>
+                        
+                        <li>
+                            <a href="story">Our Story</a>
+                        </li>
+                        
+                        <li>
+                            <a href="youth">Our Youth</a>
+                        </li>
+                    </ul>
+                </div>
+				<div class="col-sm-3 text-center">
+                    <ul class="pages left">
+                        <li>
+                            <a href="leadership">Our Leadership</a>
+                        </li>
+                        
+                        <li>
+                            <a href="influence">Our Influence</a>
+                        </li>
+                        
+                        <li>
+                            <a href="governance">Our Governance</a>
+                        </li>
+                        
+                        <li>
+                            <a id="contact" href="http://www.rustyhutchison.com">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr id="hr">
+            <div class="row">
+                <div class="col-sm-6 text-center divider">
+                	<a href="https://www.google.com/maps/place/6095+NE+Industry+Dr,+Des+Moines,+IA+50313/data=!4m2!3m1!1s0x87ee9a89275893eb:0x8b1538d1243e9212?sa=X&ved=0ahUKEwjttLqE4MbKAhVqs4MKHc-oCrgQ8gEIHDAA" target="_blank"><h3>6095 NE Industry Drive, Des Moines, IA 50313</h3></a>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <ul id="media" class="list-inline">
+                        <li>
+			    			<a href="#">
+                            	<i id="marketing" class="fa fa-facebook fa-4x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/KingdomCaresInt">
+                            	<i id="marketing" class="fa fa-twitter fa-4x"></i>
+                            </a>
+                        </li>
+                        <li>
+							<a href="#">
+                            	<i id="marketing" class="fa fa-instagram fa-4x"></i>
+                            </a>                        
+                        </li>
+                        <li>
+							<a href="#">
+                            	<i id="marketing" class="fa fa-youtube fa-4x"></i>
+                            </a> 
+                        </li>
+                    </ul>		
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+<!-- Temporarily removed for use later if desired
+    
+    <section id="support-footer">
+		<div class="container">
+            <div  class="row text-center">
+            	<div class="col-xs-6">
+            		<a href="influence"><p>Our Influence</p></a>
+            	</div>
+            	<div class="col-xs-6">
+            		<a href="https://kingdomcaresinternational.cloverdonations.com/beyondball/" target="_blank"><p>Your Support<img src="img/kc-logo-navy-sm.png"/></i></p></a>
+            	</div>
+            </div>
+        </div>
+    </section>
+    
+-->
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/kingdom.js"></script>
+    
+
+</body>
+</html>

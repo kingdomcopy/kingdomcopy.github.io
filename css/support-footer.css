@@ -1,0 +1,26 @@
+#support-footer  {
+	width:100%;
+    background-color: #ed1b2f;
+    padding:10px;
+    color: #fff;
+}
+
+#support-footer p {
+	margin:0px;
+}
+
+#support-footer a {
+	color: #fff;
+}
+
+#support-footer img {
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 25px;
+	width: 25px;
+}
+
+#support-footer .col-xs-6 {
+	padding-left: 0px;
+	padding-right: 0px;
+	}

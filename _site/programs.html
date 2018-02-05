@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Kingdom Cares Programs: Kingdom Hoops & Beyond Ball">
+    <meta name="author" content="Rusty Hutchison">
+
+    <title>Kingdom Cares</title>
+	<link rel="icon" href="img/kingdom-icon.png">
+   
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://kingdomcares.github.io/font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<style>
+
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway','Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 300;
+}
+
+hr {
+    max-width: 50px;
+    border-color: #ed1b2f;
+    border-width: 3px;
+}
+
+hr.light {
+    border-color: #000;
+}
+
+a {
+    color: #ed1b2f;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a:hover,
+a:focus {
+    color: #ed1b2f;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.bg-primary {
+    background-color: #fff;
+    color: #000;
+}
+
+.bg-dark {
+    color: #fff;
+    background-color: #222;
+}
+
+.text-faded {
+    color: rgba(255,255,255,.7);
+}
+
+section {
+    padding-top: 50px;
+    
+}
+
+aside {
+    padding: 50px 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 0px 0px 0px 10px;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar-default {
+    border-color: rgba(34,34,34,.05);
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    background-color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+    color: #ed1b2f;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: #eb3812;
+}
+
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    color: #222;
+}
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
+    color: #ed1b2f;
+}
+
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: #ed1b2f!important;
+    background-color: transparent;
+}
+
+.navbar-default .nav > li.active>a:hover,
+.navbar-default .nav>li.active>a:focus:hover {
+    background-color: transparent;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        border-color: rgba(255,255,255,.3);
+        background-color: #fff;
+    }
+
+    .navbar-default .navbar-header .navbar-brand {
+        color: rgba(255,255,255,.7);
+    }
+
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #fff;
+    }
+
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        color: #000000;
+    }
+
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #ed1b2f;
+    }
+
+    .navbar-default.affix {
+        border-color: rgba(34,34,34,.05);
+        background-color: #fff;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand {
+        font-size: 14px;
+        color: #000000;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    .navbar-default.affix .navbar-header .navbar-brand:focus {
+        color: #ed1b2f;
+    }
+
+    .navbar-default.affix .nav > li>a,
+    .navbar-default.affix .nav>li>a:focus {
+        color: #222;
+    }
+
+    .navbar-default.affix .nav > li>a:hover,
+    .navbar-default.affix .nav>li>a:focus:hover {
+        color: #ed1b2f;
+    }
+}
+
+
+.list-inline{
+    margin-top: 10px;
+    float: right;   
+}
+
+@media(min-width:768px) {
+   
+
+	footer {
+    background-image: url(../img/footer/kc-footer-background.jpg);
+    background-position: 50% 100%;
+    background-color: #424244;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain ;
+    -o-background-size: contain;
+    background-repeat:no-repeat;
+    height: 246px;
+	}
+
+
+
+    header .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    header .header-content .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+    }
+
+    header .header-content .header-content-inner p {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 80%;
+        font-size: 18px;
+    }
+    
+    .bg-primary {
+    background-color: #fff;
+    color: #000;
+	}
+
+	.bg-dark {
+    color: #fff;
+    background-color: #222;
+	}
+    
+}
+
+footer p {
+	float: right;
+	}
+	
+footer .col-lg-12 {
+	padding-right: 0px;
+	}
+
+.section-heading {
+    margin-top: 0;
+}
+
+.service-box {
+    margin: 50px auto 0;
+    max-width: 400px;
+}
+
+@media(min-width:992px) {
+    .service-box {
+        margin: 20px auto 0;
+    }
+}
+
+.service-box p {
+    margin-bottom: 0;
+}
+
+#portfolio .portfolio-item{
+	margin:0 0 15px;
+	right:0
+	}
+
+#portfolio .portfolio-item .portfolio-link{
+	display:block;
+	position:relative;
+	
+	margin:0 auto
+	}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover{
+	background-color: #ed1b2f; 
+	position:absolute;
+	width:100%;
+	height:100%;
+	opacity:0;
+	transition:all ease .5s;
+	-webkit-transition:all ease .5s;
+	-moz-transition:all ease .5s
+	}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover{
+	opacity:.7
+	}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content{
+	position:absolute;
+	width:100%;
+	height:20px;
+	font-size:20px;
+	text-align:center;
+	top:50%;
+	margin-top:-12px;
+	color:#fff
+	}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i{
+	margin-top:-12px
+	}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover
+ .portfolio-hover-content h3,#portfolio .portfolio-item 
+ .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+ 	margin:0
+ 	}
+
+#portfolio .portfolio-item .portfolio-caption{
+	max-width:400px;
+	margin:0 auto;
+	background-color:#fff;
+	text-align:center;
+	padding:25px
+	}
+
+#portfolio .portfolio-item .portfolio-caption h4{
+	text-transform:none;
+	margin:0
+	}
+
+#portfolio .portfolio-item .portfolio-caption p{
+	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-style:italic;
+	font-size:16px;
+	margin:0
+	}
+
+#portfolio *{z-index:2}
+
+@media (min-width:767px){
+	#portfolio .portfolio-item{
+	margin:0 0 30px
+	}
+}
+
+footer {
+    background-image: url(https://kingdomcares.github.io/img/footer/kc-footer-background.jpg);
+    background-position: 50% 100%;
+    background-color: #424244;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain ;
+    -o-background-size: contain;
+    background-repeat:no-repeat;
+    height: 150px;
+}
+
+.text-primary {
+    color: #ed1b2f;
+}
+
+.no-gutter > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.btn-default {
+    border-color: #fff;
+    color: #222;
+    background-color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    border-color: #ededed;
+    color: #222;
+    background-color: #f2f2f2;
+}
+
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    background-image: none;
+}
+
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.btn-default .badge {
+    color: #fff;
+    background-color: #222;
+}
+
+.btn-primary {
+    border-color: #ed1b2f;
+    color: #fff;
+    background-color: #ed1b2f;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    border-color: #ed431f;
+    color: #fff;
+    background-color: #ee4b28;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.dropdown-menu>li>a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #ed1b2f;
+    background-color: #ed1b2f;
+}
+
+.btn-primary .badge {
+    color: #ed1b2f;
+    background-color: #fff;
+}
+
+.btn {
+    border: 0;
+    border-radius: 300px;
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+}
+
+.btn-xl {
+    padding: 15px 30px;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    color: #fff;
+    background: #222;
+}
+
+::selection {
+    text-shadow: none;
+    color: #fff;
+    background: #222;
+}
+
+img::selection {
+    color: #fff;
+    background: 0 0;
+}
+
+img::-moz-selection {
+    color: #fff;
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: #222;
+}
+
+#portfolio {
+	border-bottom: thin solid gray;
+	}
+	
+#kingdomhoops-header {
+	background-image: url(https://kingdomcares.github.io/img/programs/middle-banner-color.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	height: 70%;
+	color: #fff;
+	position: relative;
+	}
+
+#kingdomhoops-header h1{
+	font-size: 60px !important;
+	font-weight: 400;
+	text-align: left;
+	text-outline: 1px 1px #000;
+	position: absolute;
+	bottom: 10px;
+	left: 7%;
+	line-height: .72;
+	text-shadow: 0.25px 0.25px 0px #000000,
+    			 -0.25px -0.25px 0px #000000,
+    			 -0.25px 0.25px 0px #000000,
+    			 0.25px -0.25px 0px #000000,
+    			 0px 0.25px 1px #000000;
+	}
+
+@media(min-width:768px) {
+    #kingdomhoops-header h1{
+	font-size: 80px !important;
+	
+	position: absolute;
+	bottom: 20px;
+	}
+}
+
+@media(min-width:1000px) {
+    #kingdomhoops-header h1{
+	left: 14%;
+	}
+}
+
+#hoops-full-width {
+	background-image: url(https://kingdomcares.github.io/img/programs/middle-banner-bw.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	height: 60%;
+	}
+
+.btn-info, .btn-info:focus  {
+	background-color: #ed1b2f;
+	margin-bottom: 20px;
+	}
+	
+.btn-info:hover  {
+	background-color: #000000;
+	margin-bottom: 20px;
+	}	
+
+#portfolio {
+	padding-top: 0px;
+	}
+
+.modal-body p {
+	margin-top: 20px;
+	}
+
+.portfolio-modal .modal-content {
+    
+    padding: 100px 0;
+
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal .lr {
+	height:75px;
+	width:1px;
+	margin-left:35px;
+	background-color:#222;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	z-index:1051
+	}
+
+.portfolio-modal .close-modal .lr .rl {
+	height:75px;
+	width:1px;
+	background-color:#222;
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	z-index:1052
+	}
+	
+	</style>
+</head>
+
+<body id="page-top">
+
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="index"><img src="https://kingdomcares.github.io/img/kingdomcares-logo-navbar.png" /></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="index">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="programs" target="_blank">Our Programs</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">Our Story</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-3-col.html">Our Youth</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-4-col.html">Our Leadership</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-item.html">Our Influence</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-item.html">Our Governance</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    
+    
+    <section id="kingdomhoops-header">
+		<div class="container">
+			
+					<h1>OUR<BR>PROGRAMS</h1>
+		
+		</div>		
+	</section>
+	
+	<section id="kingdomhoops">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1">
+				<h1>Kingdom Hoops</h1>
+					<p>The core of our outreach is our basketball program. Through Kingdom Hoops we are able to offer youth a 
+					unique development opportunity and platform to 300-400 youth annually. While we offer elite basketball 
+					training, our environment is one that creates integrative inclusion – a setting where diverse groups of 
+					youth come together, create relationships, and achieve goals together. Last year, students from over 50 
+					school districts in the state of Iowa to participated in Kingdom Hoops.</p>
+					<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#hoops">More Info</button>
+					<div id="hoops" class="collapse">
+						<p>From a basketball standpoint, our focus remains in the fundamentals and skill development of each 
+					athlete in the program no matter age or level. The opportunity for youth to participate in Kingdom Hoops 
+					goes beyond training in our Des Moines facility as our teams travel and compete in national events. The AAU
+					 basketball model offers a unique exposure opportunity for student-athletes. Each year, 90% of the 
+					 student-athletes on our top 17U program go on to receive some form of an athletic or academic 
+					 scholarship. The Kingdom Hoops program is a process and our staff is committed to coming alongside and 
+					 tailoring the experience to the youth we serve. We believe basketball is the beginning, our vision is to 
+					 create an experience where youth are able to reach their athletic goals, while growing spiritually and 
+					 developing relationships along the way.</p>
+					</div>
+				</div>	
+			</div>		
+		</div>	
+	</section>				
+				
+				
+	<!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading"></h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="https://kingdomcares.github.io/img/programs/hoops-teams-bw.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h3>Kingdom Hoops<br>Teams</h3>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="https://kingdomcares.github.io/img/programs/academy.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h3>Kingdom Hoops<br>Academies</h3>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>			
+				
+				
+	<section id="beyond-ball">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1">
+				<h1>Beyond Ball</h1>
+					<p>Beyond Ball is a program that helps provide additional opportunity off the basketball court for the 
+					youth we serve. Our organization is a place where youth from various different economic and ethnic 
+					backgrounds can come together and work for a common goal, a place where skill, dedication, and hard work 
+					are taught, and where opportunity is first found. Our goal is to walk alongside our student-athletes that 
+					live in the inner city of Des Moines, Iowa by providing athletic scholarships, tutoring, meals, and 
+					mentorship.</p>
+					<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#beyond">More Info</button>
+					<div id="beyond" class="collapse">
+						<p>Through this program, we envision all of our students pursuing higher education, becoming 
+					leaders in their communities and families, and receiving athletic college scholarships. Although financial 
+					support is a key factor, we believe that true impact can only be reached through deep, long-term 
+					relationships. Mentors and coaches are there to support the spiritual and character development of these 
+					students.</p>
+					</div>
+				</div>	
+			</div>		
+		</div>	
+	</section>				
+				
+				
+	<!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading"></h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="https://kingdomcares.github.io/img/programs/feeding-program-bw.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h3>Feeding Program</h3>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="https://kingdomcares.github.io/img/programs/mentor-bw.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h3>Mentoring Program</h3>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>			
+				
+    
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="index">Home</a>
+                        </li>
+                        
+                        <li>
+                            <a href="programs">Our Programs</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#services">Our Story</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#about">Our Youth</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#services">Our Leadership</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#services">Our Influence</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#services">Our Governance</a>
+                        </li>
+                        
+                        <li>
+                            <a href="http://www.rustyhutchison.com">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="copyright text-muted small">© 2013 Kingdom Cares International. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h1>Kingdom Hoops Teams</h1>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-responsive img-centered" src="https://kingdomcares.github.io/img/programs/hoops-teams-color.jpg" alt="">
+                            <p>Kingdom Hoops is an annual program, meaning our teams practice and train multiple days per week 
+                            while traveling to tournaments throughout the year. Our reams run Kindergarten through 11th grade. 
+                            To learn more about joining a Kingdom Hoops team, check us out at <a href="http://www.kingdomhoops.com" 
+                            target="_blank">Kingdom Hoops</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa "></i>Back To Programs</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h1>Kingdom Hoops Academies</h1>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-responsive img-centered" src="https://kingdomcares.github.io/img/programs/academy-color.jpg" alt="">
+                            <p>Kingdom Hoops academies are included in membership tuition and are also open to the public. Each
+                             year, we offer a host of camps focusing on various, specific developmental areas. To enroll or 
+                             learn more, check us out at <a href="http://www.kingdomhoops.com" target="_blank">Kingdom Hoops</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa "></i>Back To Programs</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h1>Feeding Program</h1>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-responsive img-centered" src="https://kingdomcares.github.io/img/programs/feeding-program-color.jpg" alt="">
+                            <p>The Beyond Ball food program was created in October of 2014 when our staff began to notice a 
+                            pattern of children asking to grab snacks from the concession stand. Through the help of many 
+                            dedicated families, we began to provide dinner four times per week to over 40 children. Many of the
+                             youth who participate in our basketball programs will spend all day and evening in our facility. 
+                             We are thankful for the many families who have chosen to serve and come alongside our program to 
+                             help make this program possible. We rely on volunteers to provide meals each week – if you are 
+                             interested in volunteering please check out our <a href="http://www.kingdomhoops.com/page/show/2170988-beyond-ball" 
+                             target="_blank">Beyond Ball</a> page.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa "></i>Back To Programs</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h1>Mentoring Program</h1>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-responsive img-centered" src="https://kingdomcares.github.io/img/programs/mentor-color.jpg" alt="">
+                            <p>The Mentorship Program is focused on strengthening the community of support that each child has.
+                             Each mentor relationship is different, but essential in the development of the student. For more 
+                             information on becoming a mentor please contact 
+                             <a href="mailto:john@kingdomhoops.com?Subject=Kingdom Cares Mentor Info" target="_top">John Lamb</a> 
+                             .</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa "></i>Back To Programs</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/kingdom.js"></script>
+
+
+</body>
+</html>

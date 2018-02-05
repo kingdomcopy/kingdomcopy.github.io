@@ -1,0 +1,387 @@
+	/* --------------------------- Timeline css ---------------------------------*/
+
+	
+	.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 100px;
+}
+
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 1%;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    background-color: #ed1b2f;
+    height: 118.5%;
+}
+
+.timeline>li {
+    position: relative;
+    margin-bottom: 75px;
+    min-height: 50px;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline>li:after {
+    clear: both;
+}
+
+.timeline>li .timeline-panel {
+    float: right;
+    position: relative;
+    width: 100%;
+    padding: 0 20px 0 125px;
+    text-align: left;
+}
+
+.timeline>li .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li .timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li .timeline-image {
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    width: 110px;
+    height: 110px;
+    margin-left: 0;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #ed1b2f;
+}
+
+.timeline>li .timeline-image h4 {
+    margin-top: 12px;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel {
+    float: right;
+    padding: 0 20px 0 125px;
+    text-align: left;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline .timeline-heading h4 {
+    margin-top: 0;
+    color: inherit;
+}
+
+.timeline .timeline-heading h4.subheading {
+    text-transform: none;
+}
+
+.timeline .timeline-body>p,
+.timeline .timeline-body>ul {
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+
+#beyond-ball h3 {
+	margin-top:38px;
+	font-family: 'Monofett';	
+	font-size: 26px;
+	line-height: .73;
+	font-weight: 900;
+	}
+
+#acts2-pic {
+    background-color: #e7e7e7;
+    top: 169%;
+	}
+	
+#acts2-panel {
+    left: 0%;
+    position: absolute;
+    top: 169%;
+	}
+
+	#year1  {
+	left: 16%;
+    top: -10%;
+    position: absolute;
+	}
+	
+	#year2  {
+	left: 15%;
+    top: 34%;
+    position: absolute;
+    background-color: #fff;
+	}
+	
+	#year3  {
+	left: 15%;
+    top: 79%;
+    position: absolute;
+    background-color: #fff;
+	}
+
+@media(min-width:768px) {
+    .timeline:before {
+    top: 0%;
+    left: 51%;
+    height: 95%;
+	}
+
+    .timeline>li {
+        min-height: 100px;
+    }
+
+    .timeline>li .timeline-panel {
+        float: left;
+        width: 41%;
+        padding: 0 20px 20px 30px;
+        text-align: right;
+    }
+
+    .timeline>li .timeline-image {
+        left: 50%;
+        margin-left: -50px;
+    }
+
+    .timeline>li .timeline-image h4 {
+        margin-top: 16px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        float: right;
+        padding: 0 30px 20px 20px;
+        text-align: left;
+    }
+    
+    #kc-pic {
+    left: 35%;
+	}
+	
+#kc-panel {
+    left: -13%;
+    position: absolute;
+	}
+	
+#acts2-pic {
+    left: 66%;
+    top: 1%;
+	}
+
+#acts2-panel {
+    left: 65%;
+    top: 1%;
+    position: absolute;
+	}	
+
+#connector {
+    position: absolute;
+    left: 34%;
+    width: 32%;
+    top: 35%;
+	}
+	
+	#year1  {
+	left: 47%;
+    top: -9%;
+    position: absolute;
+	}
+	
+	#year2  {
+	left: 47%;
+    top: 33%;
+    position: absolute;
+    background-color: #fff;
+	}
+	
+	#year3  {
+	left: 47%;
+    top: 77%;
+    position: absolute;
+    background-color: #fff;
+	}
+}
+
+@media(min-width:992px) {
+
+	.timeline:before {
+    height: 94.5%;
+    left: 50.5%;
+	}
+
+	#kc-panel {
+    left: -13%;
+    position: absolute;
+	}
+
+	#acts2-panel {
+    left: 57%;
+	}
+	
+	#year1 {
+    left: 47.5%;
+    top: -11%;
+	}	
+	
+	#year2 {
+    left: 47.5%;
+    top: 32.5%;
+	}
+	
+	#year3 {
+    left: 47.5%;
+    top: 77%;
+    }
+}
+
+@media(min-width:1100px) {
+    .timeline>li {
+        min-height: 150px;
+    }
+
+    .timeline>li .timeline-panel {
+        padding: 0 20px 20px;
+    }
+
+    .timeline>li .timeline-image {
+        width: 150px;
+        height: 150px;
+        margin-left: -75px;
+    }
+
+    .timeline>li .timeline-image h4 {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 20px 20px;
+    }
+        
+    .timeline:before {
+    height:92.75%;
+    left: 50%;
+	}
+	
+	#year1 {
+    left: 47%;
+    top: -8%;
+	}	
+	
+	#year2 {
+    left: 47%;
+    top: 34%;
+	}
+	
+	#year3 {
+    left: 47%;
+    top: 77%;
+    }
+    
+    #beyond-ball h3 {
+	margin-top:50px;
+	font-family: 'Monofett';	
+	font-size: 40px;
+	line-height: .73;
+	font-weight: 900;
+	}
+    
+}
+
+@media(min-width:1200px) {
+    
+
+    .timeline>li .timeline-panel {
+        padding: 0 25px 0px 0px;
+    }
+
+    .timeline>li .timeline-image {
+        
+        margin-left: -85px;
+    }
+
+    .timeline>li .timeline-image h4 {
+        margin-top: 40px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 0px 0px 5px;
+    }
+    
+    .timeline:before {
+    left: 49%;
+	}
+	
+	#acts2-panel {
+    left: 52%;
+	}	
+	
+	#year1 {
+    left: 46.5%;
+	}	
+	
+	#year2 {
+    left: 46.5%;
+    top: 34%;
+	}
+	
+	#year3 {
+    left: 46.5%;
+    top: 77%;
+    }
+	
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+@media(max-width:768px) {
+
+#year  {
+	margin-top: 95px;
+    text-align: left;
+    margin-left: 47px;
+}
+}
+
+#prospect-timeline h3 {
+	color:black;
+}
